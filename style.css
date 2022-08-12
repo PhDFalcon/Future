@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+    background: url(bg2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoContainer{
+    float:left;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menuContainer{
+    float: left;
+    margin-left: 720px;
+}
+.menuContainer ul li{
+    float: left;
+    margin-left: 50px;
+    list-style-type: none;
+    margin-top: 50px;
+
+}
+.menuContainer ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+}
+.menuContainer ul li.active a{
+    border: 1px solid white;
+}
+.menuContainer ul li a:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    transition: all 1.5s ease-in-out;
+}
+.contentContainer{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+}
+.contentContainer h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold; 
+    text-align: center;
+}
+.contentContainer h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;  
+    text-align: center;
+    margin-top: 10px;
+}
+.button{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.button .btn1{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(49, 152, 170)
+}
+.button .btn2{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(49, 152, 170)
+}
+.button .btn3{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(49, 152, 170)
+}
+.button .btn1:hover{
+    background-color: rgb(214, 157, 51);
+    color: black;
+    transition: all 1s ease-in-out;
+}
+.button .btn2:hover{
+    background-color: rgb(214, 157, 51);
+    color: black;
+    transition: all 1s ease-in-out;
+}
+.button .btn3:hover{
+    background-color: rgb(214, 157, 51);
+    color: black;
+    transition: all 1s ease-in-out;
+}
